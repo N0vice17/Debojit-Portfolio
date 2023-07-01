@@ -1,17 +1,31 @@
-.list ul li{
-    list-style-type: none;
- }
- .list ul li a{
-    text-decoration: none;
-    color: white;
-    padding: 40px;
- }
- .list ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 20px;
- }
-.Navbar{
-    background-color: black;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+.list ul li {
+  list-style-type: none;
+  margin-left: 30px;
+  margin-bottom: 7px;
+}
+
+.list ul li a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 20px;
+  color: #6F00FF;
+  font-size: 2.49vh;
+  font-family: 'Roboto Slab', serif;
+}
+
+.list ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+.list ul li a {
+  text-decoration: underline 0.17em rgba(0, 0, 0, 0);
+  transition: text-decoration-color 700ms;
+}
+
+.list ul li a:hover {
+  text-decoration-color: #6F00FF;
 }
