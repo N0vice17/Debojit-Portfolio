@@ -9,22 +9,22 @@ const Navlinks = {
     home: {
         to: '/',
         element: <Home />,
-        text: "Home",
+        text: "</Home>",
     },
     about: {
         to: "/about",
         element: <About />,
-        text: "About"
+        text: "</About>"
     },
     contact: {
         to: "/contact",
         element: <Contact />,
-        text: "Contact",
+        text: "</Contact>",
     },
     portfolio: {
         to: "/portfolio",
         element: <Portfolio />,
-        text: "Portfolio",
+        text: "</Portfolio>",
     },
     other:{
         to:"*",
