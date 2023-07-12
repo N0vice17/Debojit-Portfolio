@@ -1,10 +1,12 @@
 .Footer {
+    position:fixed;
     display: flex;
+    bottom:0;
     justify-content: center;
     color: white;
     padding: 20px;
     font-size: 1.6vh;
+    width:100%;
     font-family: 'Roboto Slab', serif;
-    margin-top: 48.81vh;
     background-color: #1D1D1D;
 }

@@ -19,6 +19,9 @@ class Home extends Component {
                             <FaTwitterSquare />
                         </a>
                     </div>
+                    <div className="card">
+                        
+                    </div>
                 </div>
             </div>
         );

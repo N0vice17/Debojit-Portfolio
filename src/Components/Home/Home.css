@@ -7,27 +7,34 @@
   font-size: 3.5vh;
   font-family: 'Roboto Slab', serif;
   letter-spacing: .15em;
+  /* background-color: white; */
 }
 
-.icons{
+.icons {
   display: flex;
   font-size: 4vh;
 }
 
-.icons > a{
-  display: inline;
+.icons>a {
+  display: flex;
   color: white;
+  border: 2px solid white;
   margin-top: 3vh;
   margin-right: 3.7vh;
 }
 
-.icons a{
+.icons a {
   transition: box-shadow 0.3s ease-in-out;
 }
 
-.icons a:hover{
-  box-shadow: 0px 0px 20px white;
+.icons a:hover {
+  box-shadow: 0px 0px 30px white;
 }
 
-
-
+.card {
+  display: inline;
+  background-color: white;
+  border-radius: 14px;
+  padding: 25vh;
+  margin-left: 85vh;
+}
