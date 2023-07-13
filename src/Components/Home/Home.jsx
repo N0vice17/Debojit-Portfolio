@@ -1,13 +1,26 @@
 import React, { Component } from "react";
 import '../Home/Home.css';
+import Typewriter from 'typewriter-effect';
 import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from "react-icons/fa";
+
+const homestring=[
+    'Hello! I am Debojit Ganguly',
+    'I Love to Code',
+];
 
 class Home extends Component {
     render() {
         return (
             <div className="home">
                 <div className="intro">
-                    Hello! I am Debojit Ganguly
+                    <Typewriter
+                        options={{
+                           strings:homestring,
+                           autoStart:true,
+                           loop:true,
+                           deleteSpeed:20, 
+                        }}
+                    />
                     <div className='icons'>
                         <a href="https://github.com/N0vice17" target="_blank" className="github">
                             <FaGithubSquare />
@@ -18,9 +31,6 @@ class Home extends Component {
                         <a href="https://twitter.com/Debojit_18" target="_blank" className="twitter">
                             <FaTwitterSquare />
                         </a>
-                    </div>
-                    <div className="card">
-                        
                     </div>
                 </div>
             </div>
