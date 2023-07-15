@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
 
 .intro {
   color: white;
   margin-left: 40vh;
-  margin-top: 20vh;
+  margin-top: 30vh;
   font-size: 3.5vh;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Space Mono', monospace;
   letter-spacing: .15em;
 }
 
