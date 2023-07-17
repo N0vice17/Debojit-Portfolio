@@ -19,7 +19,7 @@ jobs:
         run: |
           git config --global user.name '${{ github.repository_owner }}'
           git config --global user.email '${{ github.repository_owner }}@users.noreply.github.com'
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
       - name: Deploy to Github pages
         run: |
-          npm run build-gh-pages
-          git clone https://github.com/${{ github.respository_owner }}/${{ github.repository_owner }}
+          npm run deploy
