@@ -29,9 +29,9 @@ export default class Home extends Component {
               deleteSpeed: 20,
             }}
           />
-          <div className="Clock">
+          {/* <div className="Clock">
             {date.toLocaleTimeString()}
-          </div>
+          </div> */}
           <div className="icons">
             <Link to="https://github.com/N0vice17" target="_blank" rel="noreferrer noopener" className="github">
               <FaGithubSquare />
