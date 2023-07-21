@@ -1,6 +1,6 @@
 import React from "react";
 import '../Navbar/Navbar.css'
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import Navlinks from "../Navbar/Navlinks";
 
 export default function Navbar(){
@@ -8,9 +8,9 @@ export default function Navbar(){
     <nav className="Navbar">
       <div className="container">
         <div className="logo">
-          <a href="/" className="Debojit">
+          <Link to="/" className="Debojit">
             Debojit
-          </a>
+          </Link>
         </div>
       <div className="list">
         <ul>

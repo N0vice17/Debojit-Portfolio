@@ -3,6 +3,7 @@ import '../Home/Home.css';
 import Typewriter from 'typewriter-effect';
 import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from "react-icons/fa";
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const homestring = [
     'Hello! I am Debojit Ganguly',
@@ -32,15 +33,15 @@ class Home extends Component {
                         {date.toLocaleTimeString()}
                     </div>
                     <div className='icons'>
-                        <a href="https://github.com/N0vice17" target="_blank" className="github">
+                        <Link to="https://github.com/N0vice17" target="_blank" rel="noreferrer noopener" className="github">
                             <FaGithubSquare />
-                        </a>
-                        <a href="https://www.linkedin.com/in/debojit-ganguly-907771242/" target="_blank" className="linkedin">
+                        </Link>
+                        <Link to="https://www.linkedin.com/in/debojit-ganguly-907771242/" target="_blank" rel="noreferrer noopener" className="linkedin">
                             <FaLinkedin />
-                        </a>
-                        <a href="https://twitter.com/Debojit_18" target="_blank" className="twitter">
+                        </Link>
+                        <Link to="https://twitter.com/Debojit_18" target="_blank" rel="noreferrer noopener" className="twitter">
                             <FaTwitterSquare />
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>
