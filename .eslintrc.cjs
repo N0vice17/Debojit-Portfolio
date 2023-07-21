@@ -19,15 +19,13 @@ module.exports = {
       version: "18.2",
     },
   },
-  plugins: [
-    "react-refresh",
-  ],
+  plugins: ["react-refresh"],
   rules: {
     "react-refresh/only-export-components": "warn",
     "no-unused-vars": [
       "error",
       {
-        "varsIgnorePattern": "React",
+        varsIgnorePattern: "React",
       },
     ],
     "no-extra-semi": "off",

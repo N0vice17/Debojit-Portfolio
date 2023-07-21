@@ -1,4 +1,3 @@
-
 .list ul li {
   list-style-type: none;
   padding: 2.1vh;
@@ -9,7 +8,7 @@
   padding: 2vh;
   color: white;
   font-size: 2.06vh;
-  font-family: 'Space Mono', monospace;
+  font-family: "Space Mono", monospace;
 }
 
 .list ul {
@@ -25,9 +24,7 @@
 
 .list ul li:hover {
   color: rgb(232, 231, 236);
-  text-shadow:
-    0 0 7px rgb(219, 218, 226),
-    0 0 10px rgb(229, 227, 235);
+  text-shadow: 0 0 7px rgb(219, 218, 226), 0 0 10px rgb(229, 227, 235);
   transform: scale(1.3);
 }
 
@@ -42,11 +39,11 @@
   text-decoration: none;
   color: white;
   font-size: 2.5vh;
-  font-family: 'Space Mono', monospace;
+  font-family: "Space Mono", monospace;
   letter-spacing: 0.5vh;
 }
 
-.logo{
+.logo {
   border: 2px solid white;
   border-radius: 2px;
   margin-left: 40vh;
@@ -54,8 +51,6 @@
   padding: 10px;
 }
 
-.Debojit:hover{
-  text-shadow:
-    0 0 7px rgb(219, 218, 226),
-    0 0 10px rgb(229, 227, 235);
+.Debojit:hover {
+  text-shadow: 0 0 7px rgb(219, 218, 226), 0 0 10px rgb(229, 227, 235);
 }
