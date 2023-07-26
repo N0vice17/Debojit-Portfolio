@@ -3,7 +3,8 @@ import "./Portfolio.css";
 
 export default function Portfolio() {
   return (
-    <div className="Portfolios">
+    <div className="Portfolio">
+      Under Developement
     </div>
   );
 };

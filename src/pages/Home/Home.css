@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Space+Mono&display=swap');
+
 .intro {
   color: white;
-  margin-left: 40vh;
   margin-top: 30vh;
   font-size: 3.5vh;
-  font-family: "Space Mono", monospace;
+  font-family: "Share Tech Mono", monospace;
   letter-spacing: 0.15em;
 }
 
@@ -12,7 +13,7 @@
   font-size: 4vh;
 }
 
-.icons > a {
+.icons>a {
   display: flex;
   color: white;
   border: 2px solid white;
@@ -26,4 +27,22 @@
 
 .icons a:hover {
   box-shadow: 0px 0px 30px white;
+}
+
+.container-home {
+  margin-left: 26.9vh;
+}
+
+.Clock {
+  display: flex;
+  position: absolute;
+  padding: 30vh;
+  right: 0.5vh;
+  top: 10vh;
+  color: #daf6ff;
+  background: radial-gradient(ellipse at center, #0a2e38 10%, #000000 80%);
+  font-size: 6.5vh;
+  letter-spacing:1vh;
+  text-shadow: 0 0 30px rgba(10, 175, 230, 1),  0 0 30px rgba(10, 175, 230, 0);
+  font-family: 'Share Tech Mono', monospace;
 }
